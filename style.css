@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: 113px 3900px ;
+    font-family: 'Preahvihear', sans-serif;
+}
+.colorir {
+    color: #836CD4;
+}
+
+.header{
+    display: grid;
+    grid-row: 1;
+    background-color: #1A0B2E;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+/* header */
+.logo{
+    grid-column: 1;
+    margin-left: 180px;
+    margin-top: 35px;
+}
+.inicio{
+    grid-column: 2;  
+    margin-top: 42px;
+}
+.inicio a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.sobre{
+    grid-column: 3;
+    margin-top: 42px;
+}
+.sobre a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.projetossss{
+    grid-column: 4;
+    margin-top: 42px;
+}
+.projetossss a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/* main */
+.main{
+    background-color: #11071F;
+    display: grid;
+    grid-template-columns: 365fr 362fr 273fr;
+    grid-template-rows: 832px 100px 500px 200px 700px 200px 850px 200px 250px;
+}
+.apresentacao{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 191px;
+}
+.softskills{
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+}
+.first{
+    height: 259px;
+    display: grid;
+    grid-template-columns: 385px 338px;
+}
+.photo{
+    width: 259px;
+    height: 259px;
+}
+.text{
+    font-size: 50px;
+    width: 338px;
+    height: 126px;
+    margin-left: -100px;
+}
+.second{
+    height: 90px;
+}
+.second p{
+    font-size: 50px;
+}
+.third{
+    height: 80px;
+}
+.third p{
+    font-size: 22px;
+}
+
+/* soft skills */
+.soft{
+    font-size: 50px;
+    height: 72px;
+}
+.cards{
+    height: 407px;
+    display: grid;
+    grid-template-columns: 570px 20px 570px;
+    grid-template-rows: 198px 16px 198px;
+    margin-top: 21px;
+}
+.pontualidade{
+    grid-column: 1;
+    grid-row: 1;
+    width: 570px;
+    height: 198px;
+    background-color: #4F228D;
+    border-radius: 5%;
+    background: rgb(19, 4, 40);
+    background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
+     rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
+     display: grid;
+     grid-template-columns: 50px 121px 26px 295px;
+     
+}
+.pontualidade img{
+    grid-column: 2;
+    margin-top: 36px;
+}
+.pontualidade .p{
+    grid-column: 4;
+    margin-top: 26px;
+    font-size: 16px;
+}
+
+.pontualidade .t {
+    grid-column: 4;
+    margin-top: -110px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.criatividade{
+    grid-column: 3;
+    grid-row: 1;
+    width: 570px;
+    height: 198px;
+    background-color: #4F228D;
+    border-radius: 5%;
+    background: rgb(19, 4, 40);
+    background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
+     rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
+     display: grid;
+     grid-template-columns: 50px 121px 26px 295px;
+}
+.criatividade img{
+    grid-column: 2;
+    margin-top: 56px;
+}
+.criatividade .p{
+    grid-column: 4;
+    margin-top: 26px;
+    font-size: 16px;
+}
+
+.criatividade .t {
+    grid-column: 4;
+    margin-top: -110px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.resolucaodeconflitos{
+    grid-column: 1;
+    grid-row: 3;
+    width: 570px;
+    height: 198px;
+    background-color: #4F228D;
+    border-radius: 5%;
+    background: rgb(19, 4, 40);
+    background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
+     rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
+     display: grid;
+     grid-template-columns: 50px 121px 26px 295px;
+}
+.resolucaodeconflitos img{
+    grid-column: 2;
+    margin-top: 36px;
+}
+.resolucaodeconflitos .p{
+    grid-column: 4;
+    margin-top: 26px;
+    font-size: 16px;
+}
+
+.resolucaodeconflitos .t {
+    grid-column: 4;
+    margin-top: -110px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.trabalhoemequipe{
+    grid-column: 3;
+    grid-row: 3;
+    width: 570px;
+    height: 198px;
+    background-color: #4F228D;
+    border-radius: 5%;
+    background: rgb(19, 4, 40);
+    background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
+     rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
+     display: grid;
+     grid-template-columns: 50px 121px 26px 295px;
+}
+.trabalhoemequipe img{
+    grid-column: 2;
+    margin-top: 56px;
+}
+.trabalhoemequipe .p{
+    grid-column: 4;
+    margin-top: 26px;
+    font-size: 16px;
+}
+
+.trabalhoemequipe .t {
+    grid-column: 4;
+    margin-top: -110px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+/* linguagens */
+.linguagens{
+    grid-column: 2;
+    grid-row: 5;
+}
+.linguagens img{
+    margin-left: 140px;
+}
+#projetos{
+    grid-row: 7;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 311px 150px 311px;
+    
+}
+.containerone{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 600px 550px;
+}
+.containertwo{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 600px 550px;
+}
+.meusprojetos p{
+    font-size: 16px;
+}
+.namedoprojeto p{
+    font-size: 34px;
+}
+.cartao{
+    width: 669px;
+    height: 198px;
+    background-color: #4F228D;
+    border-radius: 4%;
+    background: rgb(19, 4, 40);
+    background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
+     rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
+     z-index: 2;
+     position: relative;
+}
+.exemplar{
+  
+   
+}
+.cartao p{
+    font-size: 16px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.inf{
+    text-align: right;
+}
+.cartao2{
+    width: 669px;
+    height: 198px;
+    background-color: #4F228D;
+    border-radius: 4%;
+    background: rgb(19, 4, 40);
+    background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
+     rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
+     z-index: 2;
+     position: relative;
+     margin-left: -120px;
+}
+.cartao2 p{
+        font-size: 16px;
+        padding-top: 35px;
+        padding-left: 25px;
+        padding-right: 35px;
+}
+.githublinks{
+    margin-top: 10px;
+}
+
+/* contato */
+.contato{
+    grid-row: 9;
+    grid-column: 2;
+}
+.contact{
+    font-size: 25px;
+}
+.gostou{
+    margin-top: 55px;
+    font-size: 15px;
+}
