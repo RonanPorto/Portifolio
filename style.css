@@ -19,6 +19,9 @@
     background-color: #1A0B2E;
     grid-template-columns: 3fr 1fr 1fr 1fr;
 }
+p{
+    color: white;
+}
 
 /* header */
 .logo{
@@ -268,7 +271,7 @@
     background: rgb(19, 4, 40);
     background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
      rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
-     z-index: 2;
+     z-index: 10;
      position: relative;
 }
 .exemplar{
@@ -292,7 +295,7 @@
     background: rgb(19, 4, 40);
     background: linear-gradient(145deg, rgba(19, 4, 40, 1) 7%, rgba(37, 16, 67, 1) 34%, rgba(56, 18, 109, 1) 57%,
      rgba(38, 16, 69, 1) 85%, rgba(25, 6, 52, 1) 100%);
-     z-index: 2;
+     z-index: 10;
      position: relative;
      margin-left: -120px;
 }
@@ -317,4 +320,120 @@
 .gostou{
     margin-top: 55px;
     font-size: 15px;
+}
+
+.myimg{
+    transition: transform 1s ease;
+}
+
+@media (max-width:500px) { 
+    .header {
+        width: 1020px;
+        
+    }
+    main{
+        width: 1020px;
+    }
+    body{
+        width: 1020px;
+    }
+    .apresentacao{
+        width: 1020px;
+    }
+    .softskills{
+        width: 1020px;
+    }
+    .linguagens{
+        width: 1020px;
+    }
+    #projetos{
+        width: 1020px;
+    }
+    .contato{
+        width: 1020px;
+    }
+    .soft{
+        width: 400px;
+    }
+    .cards{
+        width: 300px;
+    }
+    .criatividade{
+        width: 500px;
+        margin-left: -75px;
+    }
+    .trabalhoemequipe{
+        width: 200px;
+    }
+    .pontualidade{
+        width: 500px;
+    }
+    .resolucaodeconflitos{
+        width: 500px;
+    }
+    .trabalhoemequipe{
+        width: 500px;
+        margin-left: -75px;
+    }
+    .informacoes{
+        width: 500px;
+    }
+    .exemplar img{
+        width: 480px;
+    }
+    #projetos{
+        max-width: 1000px;
+    }
+    .cartao{
+        width: 500px;
+    }
+    .cartao p{
+        font-size: 15px;
+    }
+    .exemplar{
+        margin-left: -75px;
+        width: 400px;
+    }
+    .ex{
+        width: 400px;
+    }
+    .ex img{
+        width: 480px;
+
+    }
+    .cartao2{
+        width: 500px;
+    }
+    .cartao2 p{
+        font-size: 15px;
+    }
+    .meusprojetos p{
+        margin-right: 150px;
+    }
+    .namedoprojeto p{
+        margin-right: 150px;
+    }
+    .githublinks a{
+        margin-right: 150px;
+    }
+    .linguagens img{
+        width: 1000px;
+        margin-left: -0px;
+    }
+    .linguagens{
+        width: 1000px;
+    }
+    .contato{
+        width: 1000px;
+    }
+    .containerone{
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: 500px 500px;
+    }
+    .containertwo{
+        grid-row: 3;
+        display: grid;
+        grid-template-columns: 500px 500px;
+    }
 }
